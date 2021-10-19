@@ -11,9 +11,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 60rem;
+  
 }
 .images {
-  filter: brightness(50%);
+  
 }
 .logo {
   display: flex;
@@ -56,6 +57,7 @@ h1 {
 .PositionTP {
   display: flex;
   justify-content: space-between;
+  height: 87vh;
   align-items: center;
 }
 .flecha--back {
