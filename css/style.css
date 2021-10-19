@@ -2,6 +2,19 @@
   max-width: 130rem;
   margin: auto;
 }
+.letra {
+  font-family: "Quicksand", sans-serif;
+}
+.btn{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn-color{
+  color: #eb8a2f;
+}
+
 .header {
   background-image: url(../image/imageonline-co-darkenimage.jpg);
   width: 100%;
@@ -11,11 +24,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 60rem;
-  
 }
-.images {
-  
-}
+
 .logo {
   display: flex;
 }
@@ -24,7 +34,6 @@
 .textB {
   color: #fff;
   font-size: 2rem;
-  font-family: "Quicksand", sans-serif;
   font-weight: 300;
   text-align: center;
   padding: 0.9rem 0 0 0;
@@ -40,7 +49,7 @@ nav {
 }
 nav a {
   justify-content: space-between;
-  font-family: "Quicksand", sans-serif;
+
   font-size: 1.5rem;
   text-decoration: none;
   color: #fff;
@@ -48,7 +57,6 @@ nav a {
 }
 
 h1 {
-  font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 4rem;
   color: #fff;
@@ -67,4 +75,86 @@ h1 {
 .flecha--next {
   color: #fff;
   font-size: 4rem;
+}
+.PosicionCards {
+  display: flex;
+}
+.card {
+  height: 30rem;
+  width: 28rem;
+  margin: 2rem 2rem 0 0;
+}
+.ImgP {
+  width: 100%;
+  height: 23vh;
+  background-size: cover;
+}
+.textName {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.textPrecio {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #eb8a2f;
+  text-align: center;
+  margin: 1rem;
+}
+.FranjaP {
+  background-color: black;
+  width: 100%;
+  height: 2rem;
+  border-radius: 10rem;
+}
+.sec1 {
+  display: flex;
+}
+.ImgT {
+  width: 100%;
+  height: 40vh;
+}
+.TituloC {
+
+  margin: 0;
+}
+.imagesR{
+  background-image: url(../image/imagenR1.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.CardR {
+  height: 30rem;
+  width: 45rem;
+  background-position: center;
+  background-size: cover;
+}
+.PositionTBR{
+  text-align: center;
+ padding: 30% 0 0 0;
+ width: 100%;
+  
+}
+.TextoR{
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+  
+}
+
+.sec2{
+  background-image: url(../image/imagenL1.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
 }
