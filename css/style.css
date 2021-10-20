@@ -1,17 +1,22 @@
 .container {
-  max-width: 130rem;
+  max-width: 110rem;
+  margin: auto;
+}
+.containerCards {
+  max-width: 110rem;
   margin: auto;
 }
 .letra {
   font-family: "Quicksand", sans-serif;
 }
-.btn{
+.btn {
   padding: 1rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
-.btn-color{
+.btn-color {
+  font-weight: 300;
   color: #eb8a2f;
 }
 
@@ -78,11 +83,24 @@ h1 {
 }
 .PosicionCards {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart {
+  padding: 1rem;
+  position: absolute;
+}
+.cart-color {
+  background-color: #eb8a2f;
+  width: 2%;
+  height: 4%;
+  border-radius: 0 0 3rem 0;
 }
 .card {
-  height: 30rem;
-  width: 28rem;
+  height: 20rem;
+  width: 20rem;
   margin: 2rem 2rem 0 0;
+  box-shadow: 0.8rem 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.1);
 }
 .ImgP {
   width: 100%;
@@ -103,10 +121,9 @@ h1 {
   margin: 1rem;
 }
 .FranjaP {
-  background-color: black;
+  background-color: #333;
   width: 100%;
-  height: 2rem;
-  border-radius: 10rem;
+  height: 3rem;
 }
 .sec1 {
   display: flex;
@@ -116,10 +133,9 @@ h1 {
   height: 40vh;
 }
 .TituloC {
-
   margin: 0;
 }
-.imagesR{
+.imagesR {
   background-image: url(../image/imagenR1.jpg);
   height: 100%;
   width: 100%;
@@ -131,30 +147,87 @@ h1 {
 
 .CardR {
   height: 30rem;
-  width: 45rem;
+  width: 30%;
   background-position: center;
   background-size: cover;
 }
-.PositionTBR{
+.PositionTBR {
   text-align: center;
- padding: 30% 0 0 0;
- width: 100%;
-  
+  padding: 40% 0 0 0;
+  width: 100%;
 }
-.TextoR{
+.TextoR {
   font-size: 3rem;
+  font-weight: 300;
   color: #fff;
   margin: 0;
-  
 }
-
-.sec2{
+.sec2 {
+  width: 100%;
+  height: 100%;
+}
+.images2 {
   background-image: url(../image/imagenL1.jpg);
   height: 50vh;
-  width: 100%;
+  width: 70%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
   padding: 0;
+}
+.sec2Flex {
+  display: flex;
+}
+.PositionTextL {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.PositionTextL p {
+  font-size: 3rem;
+  padding: 15% 0 0 0;
+}
+.Testimonial {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  margin:  0 0 2rem 0;
+  
+}
+.FlexTestimoniales {
+  display: flex;
+  flex-direction: column;
+}
+
+.IconPosition {
+  text-align: center;
+  align-items: center;
+  
+}
+.RecomendacionesT{
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}
+
+
+.stars {
+  width: 19rem;
+  height: 2rem;
+  
+}
+.FlexComentario{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 29rem;
+  font-size: 1rem ;
+  font-weight: 300;
+  justify-content: space-around;
+}
+.TextoTestimonial{
+  width: 80%;
+  height: 10%;
 }
