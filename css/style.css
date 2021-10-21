@@ -11,16 +11,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 60rem;
-  
 }
-.images {
-  
-}
+
 .logo {
   display: flex;
 }
-.logo {
-}
+
 .textB {
   color: #fff;
   font-size: 2rem;
@@ -29,6 +25,7 @@
   text-align: center;
   padding: 0.9rem 0 0 0;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,6 +35,7 @@ nav {
   z-index: 5;
   padding: 2.5rem;
 }
+
 nav a {
   justify-content: space-between;
   font-family: "Quicksand", sans-serif;
@@ -67,4 +65,22 @@ h1 {
 .flecha--next {
   color: #fff;
   font-size: 4rem;
+}
+
+.header2 {
+  background: #333333;
+  width: 100%;
+  height: 115px;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  background: #f8eeee;
+  border-top: 4px solid #fff;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
 }
