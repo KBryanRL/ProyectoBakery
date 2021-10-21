@@ -155,8 +155,17 @@ h1 {
 .TituloC {
   margin: 0;
 }
-.imagesR {
+.imagesR1 {
   background-image: url(../image/imagenR1.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.imagesR2 {
+  background-image: url(../image/imageR2.png);
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -256,10 +265,10 @@ h1 {
 .textBfooter {
   align-items: center;
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   text-align: center;
-  padding: 0.9rem 0 0 0;
+  margin: 0;
 }
 
 .FlexFooter {
