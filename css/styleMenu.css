@@ -5,23 +5,71 @@
   font-family: "Lato", sans-serif;
 }
 
-.container-menu {
+header {
   width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.logo {
+  display: flex;
+}
+
+.textB {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 0.9rem 0 0 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  top: 1rem;
+  max-width: 130rem;
+  margin: auto;
+  z-index: 5;
+  padding: 1rem;
+}
+
+nav a {
+  justify-content: space-between;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  margin: 1rem 1rem 1em 1rem;
+}
+
+.container-flex {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
   margin-top: 30px;
 }
 
+.select-menu {
+  width: 25%;
+}
+
+.container-menu {
+  width: 75%;
+  height: 100%;
+  background: #fff;
+}
+
 .menu-pan {
-  /* display: grid;
+  display: grid;
   gap: 1rem;
   grid-auto-flow: dense;
-  grid-auto-rows: 22rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr)); */
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
   margin-left: 6%;
 }
 
 .img-pan {
-  width: 350px;
-  height: 380px;
+  width: 280px;
+  height: 310px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -49,16 +97,16 @@
   margin-top: 15px;
 }
 
-.contentDescrip {
+/* .contentDescrip {
   width: 50%;
 }
 
 .contentDescrip p,
 h2 {
   margin: 15px;
-}
+} */
 
-.buttonAdd {
+/* .buttonAdd {
   border: none;
   width: 150px;
   height: 48px;
@@ -69,4 +117,4 @@ h2 {
   cursor: pointer;
   padding: 2px;
   border-radius: 8px;
-}
+} */
