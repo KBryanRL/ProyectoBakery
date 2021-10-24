@@ -74,22 +74,13 @@ nav a {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.contentLogo {
-  background: #eb8a2f;
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  border-bottom-right-radius: 35px;
-  border-top-left-radius: 5px;
-}
-
 .iconify {
   margin: 4px 0 4px 10px;
 }
 
 .img-pan img {
   width: 100%;
-  height: 100%;
+  height: 150px;
 }
 
 .contentImg {
@@ -97,19 +88,19 @@ nav a {
   margin-top: 15px;
 }
 
-/* .contentDescrip {
+.contentDescrip {
   width: 50%;
 }
 
 .contentDescrip p,
 h2 {
   margin: 15px;
-} */
+}
 
-/* .buttonAdd {
+.buttonAdd {
   border: none;
   width: 150px;
-  height: 48px;
+  height: 30px;
   background: #e68022;
   font-size: 15px;
   margin-left: 12px;
@@ -117,4 +108,13 @@ h2 {
   cursor: pointer;
   padding: 2px;
   border-radius: 8px;
-} */
+}
+
+ul {
+  margin: 0 0 0 12%;
+  list-style: none;
+}
+
+li {
+  margin: 5px;
+}
