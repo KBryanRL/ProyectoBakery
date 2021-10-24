@@ -41,6 +41,10 @@ nav a {
   margin: 1rem 1rem 1em 1rem;
 }
 
+main {
+  margin-bottom: 20px;
+}
+
 .container-flex {
   width: 100%;
   display: flex;
@@ -117,4 +121,11 @@ ul {
 
 li {
   margin: 5px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
